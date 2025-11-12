@@ -30,6 +30,9 @@ header{
    p{
     font size: 40px;
    }
+   img{
+    height: 200px;
+   }
    .categoria-videos{
     display:flex;
     overflow-x: auto;
