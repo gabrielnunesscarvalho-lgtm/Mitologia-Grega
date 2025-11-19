@@ -3,6 +3,7 @@ body{
     background: rgb(163, 209, 240);
     margin: 0px;
     font-family: "Metamorphous", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
@@ -30,9 +31,6 @@ header{
    p{
     font size: 40px;
    }
-   img{
-    height: 200px;
-   }
    .categoria-videos{
     display:flex;
     overflow-x: auto;
@@ -41,4 +39,16 @@ header{
    .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+   }
+   .categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+   }
+   .categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(21, 21, 97);
+   }
+   .categoria h2{
+    color: rgb(17, 110, 163)
    }
