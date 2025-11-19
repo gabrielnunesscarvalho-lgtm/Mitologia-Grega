@@ -1,4 +1,4 @@
-body{
+body {
     color: rgb(6, 150, 247);
     background: rgb(163, 209, 240);
     margin: 0px;
@@ -6,14 +6,14 @@ body{
     margin-bottom: 100px;
 }
 
-header{
+header {
     border-bottom: solid 2px rgb(6, 150, 247);
     padding: 20px;
     font-size: 32px;
     color: rgb(17, 110, 163)
 }
 
-.chamada{
+.chamada {
     background: rgb(32, 63, 99);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -22,33 +22,40 @@ header{
     font-size: 30px;
 }
 
-.chamada-texto{ 
+.chamada-texto {
     margin-right: 5%;
 }
-   h1{
+
+h1 {
     font-size: 40px;
-   } 
-   p{
-    font size: 40px;
-   }
-   .categoria-videos{
-    display:flex;
+}
+
+p {
+    font-size: 40px;
+}
+
+.categoria-videos {
+    display: flex;
     overflow-x: auto;
     gap: 10px;
-   }
-   .categoria{
+}
+
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 50px;
-   }
-   .categoria-videos img{
+}
+
+.categoria-videos img {
     opacity: 0.5;
     height: 200px;
-   }
-   .categoria-videos img:hover{
+}
+
+.categoria-videos img:hover {
     opacity: 1.0;
     border: 1px solid rgb(21, 21, 97);
-   }
-   .categoria h2{
-    color: rgb(17, 110, 163)
-   }
+}
+
+.categoria h2 {
+    color: rgb(17, 110, 163);
+}
